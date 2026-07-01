@@ -31,7 +31,7 @@ The script supports both **single video files** and **entire directories**, maki
 
 ```text
 .
-├── video_compressor.sh
+├── compress.sh
 └── compressed/
 ```
 
@@ -50,7 +50,7 @@ The script supports both **single video files** and **entire directories**, maki
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ffmpeg-video-compressor.git
+git clone https://github.com/yourusername/Video-size-compress-script.git
 cd ffmpeg-video-compressor
 ```
 
@@ -94,7 +94,7 @@ chmod +x video_compressor.sh
 ### Compress a Single Video
 
 ```bash
-./video_compressor.sh video.mp4
+./compress.sh video.mp4
 ```
 
 ### Compress an Entire Directory
